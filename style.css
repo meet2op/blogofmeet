@@ -42,6 +42,21 @@ h2 {
 ul {
     list-style-type: square;
 }
+.editor-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    display: block;
+    margin: 15px auto;
+
+    border-radius: 6px;
+    border: 1px solid #2a2f3a;
+
+    /* prevents overflow on small screens */
+    object-fit: contain;
+}
+
 
 .email {
     color: #4fc1ff;
